@@ -25,7 +25,7 @@ Pour suivre ce workshop, vous aurez besoin :
 Une fois n'est pas coutume, nous récupérons ce projet depuis Github et installerons ses dépendances :
 
 ```bash
-git clone https://github.com/js-republic/graphql-workshop.git
+git clone https://github.com/mbreton/graphql-workshop.git
 cd graphql-workshop
 npm install
 ```

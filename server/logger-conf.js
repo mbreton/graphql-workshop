@@ -11,7 +11,7 @@ module.exports = {
       })
     ]
   }),
-  logger: new winston.Logger({
+  logger: new winston.createLogger({
     level: LOG_LEVEL,
     transports: [
       new winston.transports.Console({

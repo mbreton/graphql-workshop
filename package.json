@@ -14,28 +14,40 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
-    "bluebird": "^3.5.1",
-    "body-parser": "^1.18.3",
-    "compression": "^1.7.2",
-    "express": "^4.16.3",
-    "express-graphql": "^0.6.12",
-    "express-winston": "^2.5.1",
-    "graphql": "^0.13.2",
-    "graphql-tools": "^3.0.2",
-    "lodash": "^4.17.10",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-markdown": "^3.3.2",
-    "react-scripts": "1.1.4",
-    "react-toggle": "^4.0.2",
-    "sqlite": "^2.9.2",
-    "sqlite3": "^4.0.0",
-    "uuid": "^3.2.1",
-    "winston": "^2.4.2"
+    "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-winston": "^4.0.3",
+    "graphql": "^14.6.0",
+    "graphql-tools": "^4.0.7",
+    "lodash": "^4.17.15",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-markdown": "^4.3.1",
+    "react-scripts": "3.4.0",
+    "react-toggle": "^4.1.1",
+    "sqlite": "^3.0.3",
+    "sqlite3": "^4.1.1",
+    "uuid": "^7.0.2",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
-    "nodemon": "^1.17.5",
-    "concurrently": "^3.5.1"
+    "nodemon": "^2.0.2",
+    "concurrently": "^5.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
